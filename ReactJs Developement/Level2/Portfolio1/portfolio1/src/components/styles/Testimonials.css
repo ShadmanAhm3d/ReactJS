@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Bakbak+One&family=Duru+Sans&family=Lato:ital,wght@0,300;0,700;1,100&family=Montserrat:wght@200;600&family=Poppins:wght@100;400;500&family=Roboto+Mono&family=Roboto:wght@500;900&family=Rubik:wght@800&display=swap");
+
+.testi{
+    background-color: rgb(136, 134, 134);
+    font-family: "Poppins";
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    border: 7px solid black;
+}
+
+.testi h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    
+}
+
+.cart-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cart{
+    display: flex;
+    background-color: black;
+flex-direction: column;
+margin-top : 4rem;
+text-align: center;
+align-items: center;
+width: 400px;
+border: 4px solid black;
+padding: 14px;
+border: 4px solid white
+
+
+}
+
+.cart img{
+    width: 30%;
+    border-radius: 50%;
+}
+
+.cart p{
+    color : white;
+    font-size: 25px;
+    font-weight: bolder;
+}
+
+.cart h5{
+    color: whitesmoke;
+    font-size: 14px;
+    line-height: 35px ;
+}
+

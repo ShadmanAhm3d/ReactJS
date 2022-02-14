@@ -1,0 +1,64 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&family=Duru+Sans&family=Lato:ital,wght@0,300;0,700;1,100&family=Montserrat:wght@200;600&family=Poppins:wght@100;400;500&family=Roboto+Mono&family=Roboto:wght@500;900&family=Rubik:wght@800&display=swap');
+
+.header {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    position: absolute;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+nav {
+    display: flex;
+    flex-grow: 1;
+    padding: 10px;
+}   
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    
+}
+.logo h1 {
+    text-transform: uppercase;
+    font-size: 30px;
+    color: rgb(53, 51, 51);
+}
+
+.ul-items {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center; 
+    margin: 0 auto;
+}
+
+.ul-items li {
+    margin: 1rem;
+}
+.ul-items li a {
+    color: rgb(44, 40, 40);
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.ul-items li a:hover {
+    border-bottom: 3px solid rgb(240, 0, 0);
+}
+
+.hamburger-menu{
+    display: flex;
+}
+
+.hamburger-menu .menu{
+    font-size: 30px;
+    color: rgb(44, 40, 40);
+    cursor : pointer;
+}
+
+
+
+
