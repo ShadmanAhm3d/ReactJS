@@ -1,0 +1,37 @@
+.wrapper{
+   display: flex;
+   justify-content:space-between;
+   padding: 12px;
+}
+
+.ul-items{
+   display: flex;
+   align-items:center;
+}
+/* 24252A */
+
+.ul-items li{
+   list-style-type:none;
+   margin: 12px;
+}
+
+.input-container{
+   margin-right:12px;
+   
+}
+
+.SearchBar{
+   padding: 7px;
+border: none;
+border: 1px solid black;
+border-radius: 12px;
+margin-right: 23px;
+box-shadow: 2px 2px 2px 2px antiquewhite;
+}
+
+.btn-search{
+padding: 11px;
+border-radius: 12px;
+background: aliceblue;
+border: none;
+}

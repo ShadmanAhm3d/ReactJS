@@ -1,17 +1,16 @@
 import React from "react";
-import Announcement from "../components/Announcement";
 import Navbar from "../components/Navbar";
-import Slider from "../components/Slider";
+import DisplayBar from "../components/DisplayBar";
+import Products from "../components/Products";
 
 const Home = () => {
   return (
     <div>
-      <Announcement />
       <Navbar />
-      <Slider />
+      <DisplayBar />
+      <Products />
     </div>
   );
 };
 
 export default Home;
-

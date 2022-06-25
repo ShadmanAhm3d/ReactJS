@@ -1,0 +1,33 @@
+.wrapper-categories{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+}
+
+
+
+
+.wrapper-items{
+ flex: 1;
+  margin: 3px;
+  height: 70vh;
+  position: relative;
+}
+.image-bar{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info{
+ position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
