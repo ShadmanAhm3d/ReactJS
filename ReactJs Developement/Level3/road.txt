@@ -1,0 +1,11 @@
+1. Learn to make basic quiz app 
+2. Try using questions using api 
+3. Learn managing session for username 
+4. Add lots of CSS with animation 
+
+#------Process------#
+
+Creat basic app , without css and later apply api yourself.
+
+
+
